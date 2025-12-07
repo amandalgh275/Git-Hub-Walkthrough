@@ -1,0 +1,4 @@
+How to add files in Git
+When we first initialized our project, the file was not being tracked by Git. To do that, we use this command git add . The period or dot that comes after add means all the files that exist in the repository. If you want to add a specific file, maybe one named about.txt, you use git add about.txt.
+
+Now our file is in the staged state. You will not get a response after this command, but to know what state your file is in, you can run the git status command.
